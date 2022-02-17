@@ -1,3 +1,6 @@
+:: Takes in an experiment .mov file, splits to baseline and drugtreated based on timestamps, and extracts .tiff
+:: frames based on a given frame rate.
+
 @echo off
 SETLOCAL ENABLEDELAYEDEXPANSION
 
@@ -7,7 +10,7 @@ for /l %%v in (1, 1, !n!) do (
     set /p video="Enter the experiment video name for video #%%v: "
     set /p b_end="Enter the baseline end timestamp for video #%%v (H:MM:SS): "
     set /p d_start="Enter the drugtreated start timestamp for video #%%v (H:MM:SS): "
-    set /p fps="En ter the frame rate for tiff extraction for video #%%v (e.g., 1/5 for 1 frameper 5 seconds): "
+    set /p fps="En ter the frame rate for tiff extraction for video #%%v (e.g., 1/5 for 1 frame per 5 seconds): "
 
     CALL:FrameExtraction !video!, !b_end!, !d_start!, !fps!
     )
