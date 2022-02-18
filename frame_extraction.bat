@@ -31,8 +31,8 @@ ENDLOCAL
 EXIT /B %ERRORLEVEL%
 
 :FrameExtraction
-%ffmpeg% -i %~1.mov -to %~2 -c copy -copyts baseline.mov
-echo baseline.mov created
+%ffmpeg% -i %~1.mov -to %~2 -c copy -copyts %pre%.mov
+echo %pre%.mov created
 
 %ffmpeg% -ss %~3 -i %~1.mov -c copy -copyts %post%.mov
 echo %post%.mov created
