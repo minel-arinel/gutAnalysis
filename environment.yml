@@ -1,0 +1,7 @@
+name: gutAnalysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.5
+  - ffmpeg=4.2.2
