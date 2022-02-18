@@ -2,18 +2,19 @@
 Widefield imaging analysis of the zebrafish gut pre and post nutrient stimulation
 
 ## Installation
-###ffmpeg
+### ffmpeg
+
 Download ffmpeg: https://github.com/BtbN/FFmpeg-Builds/releases (ffmpeg-master-latest-win64-gpl.zip)
 
 Extract the folder and rename it as `ffmpeg`
 
 Copy the ffmpeg folder to local disk (C:). The executable's path should be `C:\ffmpeg\bin\ffmpeg.exe`
 
-###ImageJ
+### ImageJ
 
 Install ImageJ: https://imagej.nih.gov/ij/download.html
 
-###gutAnalysis
+### gutAnalysis
 
 Open Anaconda Prompt:
 
