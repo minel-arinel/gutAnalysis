@@ -23,12 +23,18 @@ Open Anaconda Prompt:
     git clone https://github.com/minel-arinel/gutAnalysis.git
     cd gutAnalysis
 
+Run ImageJ and install the `image_analysis.ijm` macro from `Plugins > Install...`
+
+Open the file under `...\gutAnalysis\image_analysis.ijm`
+
+Save under `...\Fiji.app\plugins\Macros\`
+
 ## Structure
 
 The analysis consists of three steps:
 1. Run the `frame_extraction.bat` script on Anaconda Prompt. This script separates the 
 experiment .mov file to baseline and drugtreated conditions and saves frames as .tiff for a
 given frame rate.
-2. Open ImageJ and run the `image_analysis.ijm` macro from Plugins > Macros > Run... and
-select the file. This macro allows the user to straighten the tiff frames and save 
-measurements for individual ROIs as a .csv file.
+2. Run the `image_analysis.ijm` macro from `Plugins > Macros > image analysis`. This allows 
+the user to straighten the tiff frames and save measurements for individual ROIs as a .csv 
+file.
