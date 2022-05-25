@@ -10,9 +10,9 @@ Extract the folder and rename it as `ffmpeg`
 
 Copy the ffmpeg folder to local disk (C:). The executable's path should be `C:\ffmpeg\bin\ffmpeg.exe`
 
-### ImageJ
+### Fiji
 
-Install ImageJ: https://imagej.nih.gov/ij/download.html
+Install Fiji: https://imagej.net/software/fiji/downloads
 
 ### gutAnalysis
 
