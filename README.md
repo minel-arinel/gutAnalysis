@@ -19,7 +19,7 @@ Install Fiji: https://imagej.net/software/fiji/downloads
 Open Anaconda Prompt:
 
     conda create --name gutAnalysis
-    activate gutAnalysis
+    conda activate gutAnalysis
     git clone https://github.com/minel-arinel/gutAnalysis.git
     cd gutAnalysis
 
